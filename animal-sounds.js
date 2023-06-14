@@ -1,5 +1,23 @@
-// Write code here
-
+function cowSounds(){
+    console.log("Cows go MOOOO!")
+}
+function dogSounds(){
+    console.log("Dogs go WOOOF!")
+}
+function duckSounds(){
+    console.log("Ducks go QUACK!")
+}
+function whatSound(item){
+    if(item === "Cow"){
+        cowSounds(item)
+    } if (item === "Dog"){
+        dogSounds(item)
+    } if (item === "Duck"){
+        duckSounds(item)
+    } else{
+    return console.log("I am not sure what noise that animal makes")
+    }
+}
 
 
 // DONT CHANGE. THIS IS FOR TESTING
