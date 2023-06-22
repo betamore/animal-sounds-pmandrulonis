@@ -18,6 +18,7 @@ function whatSound(item){
     return console.log("I am not sure what noise that animal makes")
     }
 }
+whatSound()
 
 
 // DONT CHANGE. THIS IS FOR TESTING
