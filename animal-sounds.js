@@ -7,7 +7,8 @@ function dogSounds(){
 function duckSounds(){
     console.log("Ducks go QUACK!")
 }
-function whatSound(item){
+function whatSound(items){
+    for(let item in items){
     if(item === "Cow"){
         cowSounds(item)
     } if (item === "Dog"){
